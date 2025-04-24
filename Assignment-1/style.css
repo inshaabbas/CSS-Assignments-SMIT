@@ -32,8 +32,14 @@
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    margin: 70px 50px 10px 50px;
     border: 6px solid #ee879c;
+    align-items: center;
+}
+
+.pfp-conrtainer{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
  .left-side a{
