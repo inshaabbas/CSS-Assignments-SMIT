@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fce4ec;
+    margin-top: 50px;
+}
+
+.main-cont{
+    background-color: #f8bbd0;
+    width: 1050px;
+    height: 500px;
+    margin: 0 auto;
+    bor
+}
