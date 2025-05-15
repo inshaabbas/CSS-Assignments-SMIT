@@ -1,0 +1,40 @@
+@media screen and (max-width: 480px) {
+    .main-cont {
+        width: 95%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .apple-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .cards {
+        padding: 10px 0;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .apple-1{
+        position: absolute;
+        left: 10px;
+    }
+
+    .apple-2{
+        position: absolute;
+        left: 80px;
+    }
+
+    .apple-3{
+        position: absolute;
+        left: 150px;
+    }
+
+    .apple-4{
+        position: absolute;
+        left: 220px;
+    }
+}
