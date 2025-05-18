@@ -119,49 +119,19 @@ body{
     margin-bottom: 30px;
 }
 
-.looking-for-label{
-    font-size: 15px;
-    color:  rgb(114, 112, 112);
+.form-elements{
+    margin-bottom: 20px;
+    margin-right: 50px;
 }
 
-.radio-btn{
-    border: 1px solid black;
-    padding: 8px 60px;
-    padding: 3px 40px 8px 10px;
-    border: 2px solid rgb(139, 138, 138);
-    border-radius: 5px;
-    margin-top: 10px;
-    display: inline-block;
-    margin-right: 55px;
-    text-align: left;
-    width: 230px;
+.password-input{
+    width: 600px;
+    height: 50px;
 }
 
-
-.email-label{
-    font-size: 15px;
-    color:  rgb(114, 112, 112);
-}
-
-.password-label{
-    font-size: 15px;
-    color:  rgb(114, 112, 112);
-}
-
-.skill-label{
-    font-size: 15px;
-    color:  rgb(114, 112, 112);
-}
-
-.btn{
-    background-color: #3f39f6;
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 5px;
-    height: 45px;
-    width: 190px;
-    font-size: 15px;
+.email-input{
+    width: 600px;
+    height: 50px;
 }
 
 input{
@@ -176,30 +146,35 @@ input:focus{
     outline-style: none;
 }
 
-.skill-input{
-    width: 600px;
-    height: 50px;
-    /* margin-top: 100px; */
+.email-label{
+    font-size: 15px;
+    color:  rgb(114, 112, 112);
 }
 
-.password-input{
-    width: 600px;
-    height: 50px;
+.password-label{
+    font-size: 15px;
+    color:  rgb(114, 112, 112);
 }
 
-.email-input{
-    width: 600px;
-    height: 50px;
+.btn{
+    background-color: #3f39f6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    height: 45px;
+    width: 190px;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
-.form-elements{
-    margin-bottom: 20px;
-    margin-right: 50px;
-}
 
-/* Responsiveness */
 
-@media screen and (min-width: 257px) and (max-width: 1140px) {
+@media screen and (max-width: 768px) and (max-wis{
+  body {
+    margin-top: 20px;
+  }
+
   .main {
     width: 95%;
     height: auto;
@@ -216,30 +191,21 @@ input:focus{
     margin-bottom: 20px;
   }
 
+  .slide {
+    width: 100%;
+  }
+
   .right-side {
     width: 100%;
     padding: 0;
   }
 
   .email-input,
-  .password-input,
-  .skill-input {
+  .password-input {
     width: 100%;
-  }
-
-  .radio-btn {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 10px;
-    padding-right: 10px;
   }
 
   .btn {
     width: 100%;
   }
-
-  .slide {
-    width: 100%;
-  }
 }
-

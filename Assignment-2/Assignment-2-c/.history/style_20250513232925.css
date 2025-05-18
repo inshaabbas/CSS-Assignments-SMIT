@@ -197,9 +197,9 @@ input:focus{
     margin-right: 50px;
 }
 
-/* Responsiveness */
 
-@media screen and (min-width: 257px) and (max-width: 1140px) {
+
+@media screen and (min-width: 257px) and (max-w) {
   .main {
     width: 95%;
     height: auto;
