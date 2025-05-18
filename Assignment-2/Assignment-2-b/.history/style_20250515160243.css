@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Roboto;
+}
+
+.main-cont{
+    margin: 0 auto;
+    background-color: whit;
+    margin-top: 40px;
+    width: 750px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
+.product-detail{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 50px;
+}
+
+.product-img{
+    width: 330px;
+    height: 500px;
+    background-color: #bc2121;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: -120px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.apple-img img{
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));
+    position: absolute;
+    right: 100px;
+}
+
+.icons{
+    padding: 15px;
+}
+
+.fa-solid.fa-share-nodes{
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.fa-regular.fa-heart{
+    color: white;
+     font-size: 23px;
+    margin-left: 230px;
+}
+
+.footer{
+    background-color: white;
+    width: 330px;
+    height: 130px;
+    position: absolute;
+    top: 370px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.apple-1, .apple-2, .apple-3, .apple-4{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.apple-1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.apple-2{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.apple-3{
+    position: absolute;
+    left: 170px;
+    top: 30px;
+}
+
+.apple-4{
+    position: absolute;
+    left: 240px;
+    top: 30px;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.cards{
+    padding: 30px;
+}
+
+.red-apple{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.green-apple{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.yellow-apple{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.red-apple img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.green-apple img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.yellow-apple img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+ul{
+    padding-top: 10px;
+}
+
+ul li{
+    font-size: 15px;
+    margin-left: 12px;
+    line-height: 10pxpx;
+}
+
+.btn{
+    background-color: #bc2121;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.main-cont{
+    margin-top: 40px;
+    position: relative;
+    position: relative;
+    width: 1000px; /* or suitable width */
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.product-detail{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+    margin: 0 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: inline-block;
+    /* right: 50px; */
+    position: absolute;
+    left: 280px;
+}
+
+.product-img{
+    width: 330px;
+    height: 500px;
+    background-color: #bc2121;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 200px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.apple-img img{
+    width: 320px;
+    height: 320px;
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.7));
+    position: absolute;
+    right: 100px;
+}
+
+.icons{
+    padding: 15px;
+}
+
+.fa-solid.fa-share-nodes{
+    color: white;
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.fa-regular.fa-heart{
+    color: white;
+     font-size: 23px;
+    margin-left: 230px;
+}
+
+.footer{
+    background-color: white;
+    width: 350px;
+    height: 130px;
+    position: absolute;
+    top: 370px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.apple-1, .apple-2, .apple-3, .apple-4{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.apple-1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.apple-2{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.apple-3{
+    position: absolute;
+    left: 170px;
+    top: 30px;
+}
+
+.apple-4{
+    position: absolute;
+    left: 240px;
+    top: 30px;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
