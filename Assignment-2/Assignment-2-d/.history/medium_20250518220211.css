@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+  .navbar-items {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .btns {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .drop-down-btn a,
+  .drop-down a {
+    font-size: 14px;
+  }
+
+  .sign-up-btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
