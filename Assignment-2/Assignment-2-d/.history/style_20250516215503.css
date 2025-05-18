@@ -1,0 +1,802 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans;
+    /* list-style: none; */
+}
+
+.main{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* -----------------Top Header Start---------- */
+
+.top-header{
+    background-color: #f9f9fb;
+    max-width: 100vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-bottom: solid 1px rgb(158, 155, 155);
+    padding: 20px 0px;
+}
+
+/* ----------Top Header End---------------- */
+
+
+
+/* ---------------Nav Bar Start------------- */
+
+.navbar{
+    min-height: 70px;
+    max-width: 100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(158, 155, 155);
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 160px;
+    height: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* margin-right: 80px; */
+    margin-left: 70px;
+    width: 40%;
+    /* width: 200px; */
+
+    flex-shrink: 0;
+}
+
+.nav-links a{
+    color: rgb(89, 87, 87);
+    /* font-size: 16px; */
+    text-decoration: none;
+    padding: 14px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover{
+    background-color: #cfe8fd;
+    padding: 14px 15px;
+    border-radius: 5px;
+    color: #4081cb;
+}
+
+.search-input{
+    position: relative;
+    /* flex-shrink: 0; */
+}
+
+/* .border-bottom{
+    position: absolute;
+    border-bottom: #2364ad solid 3px ;
+} */
+
+.search-input input{
+    width: 80px;
+    height: 28px;
+    outline: none;
+    border :rgb(153, 152, 152) solid 1px;
+    padding: 0 30px 0 10px;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.search-input i{
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: rgb(153, 152, 152);
+}
+
+.search-input input:focus{
+    width: 100%; 
+}
+
+.sign-up-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 50%;
+}
+
+.theme{
+    color: rgb(79, 78, 78);
+    font-size: 16px;
+}
+
+.theme img{
+    margin-right: 3px;
+}
+
+.login{
+    color: rgb(79, 78, 78);
+    font-size: 16px;
+}
+
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: rgba(88, 87, 87, 0.35) 0px 5px 15px;
+    z-index: 1;
+     max-height: 450px;
+    overflow-y: auto;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.dropdown-content span{
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(237, 228, 228);
+    color: black;
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
+}
+
+.drop-item p{
+    font-size: 12px;
+    margin: 4px 0 4px 0;
+}
+
+.new{
+    position: relative;
+    background-color: #2364ad;
+    color: white;
+    font-weight: bold;
+    font-size: 7px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 5px;
+    top:-10px;
+    right: 3px;
+    bottom: 18px;
+}
+
+/*------------------ Nav Bar Ends------------------ */
+
+/*------------- Bottom Nav Bar Start ----------------*/
+
+.bottom-nav-bar{
+    max-width: 100vw;
+    height: 30px;
+    background-color: #f9f9fb;
+    border-bottom: solid 1px rgb(158, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 5px;
+}
+
+.reference{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 0;
+}
+
+.reference a {
+    color: rgb(105, 104, 104);
+    font-size: 17px; 
+}
+
+
+.fa-solid.fa-greater-than{
+    color:rgb(105, 104, 104) ;
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+
+.language p {
+    color: rgb(79, 78, 78); 
+    font-size: 17px;
+}
+
+/*------------ Bottom Nav Bar End -----------*/
+
+
+/*------------ Hero Section Start -------------*/
+
+
+/*-------------------- left section start--------------- */
+
+.hero-section{
+    /* background-color: rgb(195, 224, 224); */
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* overflow-y: auto; */
+    /* overflow: hidden; */
+}
+
+.left-section{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    padding: 15px;
+    overflow-y: auto
+}
+
+.middle-section{
+    background-color: aliceblue;
+    width: 60%;
+    /* height: 100%; */
+    height: auto;
+    overflow-y: auto;
+    padding: 30px 50px;
+}
+
+.right-section{
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    overflow-y: auto
+}
+
+.filter-input{
+    position: relative;
+    /* margin-bottom: 20px; */
+    margin-top: 5px;
+}
+
+.filter-input input{
+    width: 80px;
+    height: 28px;
+    outline: none;
+    border :rgb(153, 152, 152) solid 1px;
+    border-radius: 20px;
+    padding: 0 10px 0 30px;
+    /* padding: 0 10px; */
+}
+
+.filter-input i{
+    position: absolute;
+    top: 9px;
+    /* bottom: -20px; */
+    left: 10px;
+    color: rgb(153, 152, 152);
+    font-size: 11px;
+}
+
+.filter-input input:focus{
+    width: 100%; 
+}
+
+.css{
+    background-color: #cfe8fd;
+    width: 60px;
+    /* height: 40px; */
+    padding: 10px 15px;
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+    border-top-right-radius: 8px ;
+    border-bottom-right-radius: 8px;
+    border-left: #4081cb 3px solid;
+    font-size: 15px;
+    /* color: grey; */
+}
+
+.css a{
+    color: rgb(70, 67, 67);
+    font-weight: 600;
+}
+
+.css:hover{
+       text-decoration: underline;
+}
+
+.left-section h2{
+     margin: 20px 0  10px 0;
+}
+
+.left-section h2 a{
+    color:  rgb(95, 93, 93);
+    font-size: 18px;
+}
+
+.left-section h2 a:hover{
+    text-decoration: underline;
+}
+
+.left-section .layout-coookbook{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.layout-coookbook a{
+    color: rgb(70, 69, 69);
+    margin-left: 10px;
+}
+
+
+.left-section p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.left-section p a{
+      color: rgb(70, 69, 69);
+}
+
+.left-section p a:hover{
+    text-decoration: underline;
+}
+
+.left-section li a:hover{
+    /* list-style: none; */
+    text-decoration: underline;
+}
+
+.left-section li::before{
+    content: '▶';
+    margin-right: 10px;
+    font-size: 10px;
+    color:rgb(70, 67, 67) ;
+}
+
+.left-section li a{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.left-section li{
+    list-style: none;
+}
+
+/*-------------------- left section end--------------- */
+
+
+/*-------------------- Right section start--------------- */
+
+.right-section p{
+    color: black;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-left: 2px solid rgb(148, 147, 147) ;
+    /* margin-left: 10px; */
+}
+
+.article a{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.article a:hover{
+    color: #3480d6;
+}
+
+/*-------------------- Right section End--------------- */
+
+
+/*-------------------- Middle section Start--------------- */
+
+/* .middle-section{
+    display: flex;
+    justify-content: center;
+} */
+
+.middle-section h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.middle-section .para-1, .para-2, .para-3{
+    padding: 20px 0;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.middle-section h2 a{
+    color: black;
+    font-size: 25px;
+}
+
+.middle-section h2 a:hover{
+     text-decoration: underline;
+}
+
+.tutorial-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tutorial-main h2 a{
+    font-size: 30px;
+}
+
+.tutorial-1  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-2  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-3  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-4 .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-1 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-2 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-3 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-4 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.reference-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reference-main h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.reference-main h2 a{
+     font-size: 30px;
+}
+
+.reference-main li a{
+    line-height: 38px;
+    text-decoration: underline;
+}
+
+.cookbook-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cookbook-main h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cookbook-main h2 a{
+    font-size: 30px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tools h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.tools h2 a{
+    font-size: 30px;
+}
+
+.tools li a{
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+.meta-bugs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-bugs h2 a{
+     font-size: 30px;
+}
+
+.meta-bugs h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.see-also{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.see-also h2{
+     margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.see-also h2 a{
+    font-size: 30px;
+}
+
+.improve-card{
+    background-color: #e5e5e8;
+    /* width: 500px; */
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 148, 148) ;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.improve-btns{
+    display: flex;
+    gap: 10px;
+}
+.btn-yes{
+    width: 100px;
+    height: 30px;
+    padding: 2px 2px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-no{
+     width: 100px;
+    height: 30px;
+    padding: 2px 2px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-yes:hover{
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.btn-no:hover{
+    border: none;
+    background-color: rgb(189, 48, 48);
+    color: white;
+}
+
+.improve-card-para{
+    margin-top: 20px;
+}
+
+.improve-card-img{
+    position: absolute;
+    right: 10px;
+    /* top: 10px; */
+    bottom: 110px;
+}
+
+/* Hero Section End */
+
+
+/* Footer start */
+
+.top-footer{
+    max-width: 100vw;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.fa-brands.fa-gitlab{
+    color: orange;
+}
+
+.top-footer-text{
+    font-size: 12px;
+}
+
+.top-footer-text i{
+    margin-left: 10ppx;
+}
+
+.access-btn button{
+    width: 90px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 11px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.top-footer-img img{
+    width: 145px;
+    height: 145px;
+    margin-top: 30px;
+}
+
+.mid-footer{
+    max-width: 100vw;
+    height: 250px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.mid-footer-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.footer-col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-2 h4{
+    margin-bottom: 5px;
+}
+
+.footer-col-2 p{
+    font-size: 14px;
+}
+
+.footer-col-3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-3 h4{
+    margin-bottom: 5px;
+}
+
+.footer-col-3 p{
+    font-size: 14px;
+}
+
+.footer-col-4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-4 h4{
+    margin-bottom: 5px;
+}
+
+.footer-col-4 p{
+    font-size: 14px;
+}
+
+.footer-col-5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col-5 h5{
+    margin-bottom: 10px;
+}
+
+.footer-col-5 p{
+    font-size: 14px;
+}

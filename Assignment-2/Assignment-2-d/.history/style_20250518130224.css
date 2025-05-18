@@ -1,0 +1,1301 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans;
+    /* list-style: none; */
+}
+
+.main{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* -----------------Top Header Start---------- */
+
+.top-header{
+    background-color: #f9f9fb;
+    max-width: 100vw;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border-bottom: solid 1px rgb(158, 155, 155);
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* ----------Top Header End---------------- */
+
+
+
+/* ---------------Nav Bar Start------------- */
+
+.navbar{
+    min-height: 70px;
+    max-width: 100vw;
+    background-color: black;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(158, 155, 155);
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1800px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 160px;
+    height: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    /* margin-right: 80px; */
+    margin-left: 70px;
+    width: 40%;
+    /* width: 200px; */
+
+    flex-shrink: 0;
+}
+
+.nav-links a{
+    color: rgb(89, 87, 87);
+    /* font-size: 16px; */
+    text-decoration: none;
+    padding: 14px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover{
+    background-color: #cfe8fd;
+    padding: 14px 15px;
+    border-radius: 5px;
+    color: #4081cb;
+}
+
+.search-input{
+    position: relative;
+    /* flex-shrink: 0; */
+}
+
+/* .border-bottom{
+    position: absolute;
+    border-bottom: #2364ad solid 3px ;
+} */
+
+.search-input input{
+    width: 80px;
+    height: 28px;
+    outline: none;
+    border :rgb(153, 152, 152) solid 1px;
+    padding: 0 30px 0 10px;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+.search-input i{
+    position: absolute;
+    top: 5px;
+    /* left: 50px; */
+    right: 10px;
+    color: rgb(153, 152, 152);
+}
+
+.search-input input:focus{
+    width: 100%; 
+}
+
+.sign-up-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 50%;
+}
+
+.theme{
+    color: rgb(79, 78, 78);
+    font-size: 16px;
+}
+
+.theme img{
+    margin-right: 3px;
+}
+
+.login{
+    color: rgb(79, 78, 78);
+    font-size: 16px;
+}
+
+.drop-down{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: rgba(88, 87, 87, 0.35) 0px 5px 15px;
+    z-index: 1;
+     max-height: 450px;
+    overflow-y: auto;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.dropdown-content span{
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(237, 228, 228);
+    color: black;
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
+}
+
+.drop-item p{
+    font-size: 12px;
+    margin: 4px 0 4px 0;
+}
+
+.new{
+    position: relative;
+    background-color: #2364ad;
+    color: white;
+    font-weight: bold;
+    font-size: 7px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-left: 5px;
+    top:-10px;
+    right: 3px;
+    bottom: 18px;
+}
+
+/*------------------ Nav Bar Ends------------------ */
+
+/*------------- Bottom Nav Bar Start ----------------*/
+
+.bottom-nav-bar{
+    max-width: 100vw;
+    height: 30px;
+    background-color: #f9f9fb;
+    border-bottom: solid 1px rgb(158, 155, 155);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 5px;
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 998;
+}
+
+.reference{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 0;
+}
+
+.reference a {
+    color: rgb(105, 104, 104);
+    font-size: 17px; 
+}
+
+
+.fa-solid.fa-greater-than{
+    color:rgb(105, 104, 104) ;
+    font-size: 10px;
+    margin: 0 5px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+ }
+
+.language p {
+    color: rgb(79, 78, 78); 
+    font-size: 15px;
+}
+
+/*------------ Bottom Nav Bar End -----------*/
+
+
+/*------------ Hero Section Start -------------*/
+
+
+/*-------------------- left section start--------------- */
+
+.hero-section{
+    /* background-color: rgb(195, 224, 224); */
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    margin-top: 120px;
+    /* overflow-y: auto; */
+    /* overflow: hidden; */
+}
+
+<div class="left-section">
+            <div class="filter-input">
+                <input type="text" placeholder="Filter">
+                <i class="fa-solid fa-filter"></i>
+            </div>
+            <div class="css"><a href="#">CSS</a></div>
+
+            <h2><a href="#">Beginner's tutorials</a></h2>
+            <p><a href="#">Your first website: Styling the content</a></p>
+            <div class="nested-links">
+            <details>
+                <summary>CSS styling basics</summary>
+                <a href="#">What is CSS?</a>
+                <a href="#">CSS getting started</a>
+                <a href="#">Challenge: Biography page</a>
+                <a href="#">Basic selectors</a>
+                <a href="#">Attribute selectors</a>
+                <a href="#">Pseudo-classes and elements</a>
+                <a href="#">Combinators</a>
+                <a href="#">Box model</a>
+                <a href="#">Handling conflicts</a>
+                <a href="#">Values and units</a>
+                <a href="#">Sizing</a>
+                <a href="#">Backgrounds and border</a>
+                <a href="#">Overflow</a>
+                <a href="#">Images, media, forms</a>
+                <a href="#">Styling tables</a>
+                <a href="#">Debugging CSS</a>
+                <a href="#">Challenge: Business card</a>
+                <a href="#">Challenge: fancy letterhead</a>
+                <a href="#">Challenge: fancy box styles</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>CSS text styling</summary>
+                <a href="#">Text and font fundamentals</a>
+                <a href="#">Styling lists</a>
+                <a href="#">Styling links</a>
+                <a href="#">Web fonts</a>
+                <a href="#">Challenge: Community school homepage</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>CSS layout</summary>
+                <a href="#">Introduction</a>
+                <a href="#">Floats</a>
+                <a href="#">Positioning</a>
+                <a href="#">Flexbox</a>
+                <a href="#">CSS grid layout</a>
+                <a href="#">Responsive designs</a>
+                <a href="#">Media queries</a>
+                <a href="#">Challenge: Fundamental layouts</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <h2><a href="#">CSS reference</a></h2>
+            <details>
+                <summary>Modules</summary>
+                <a href="#">CSS anchor positioning</a>
+                <a href="#">CSS animations</a>
+                <a href="#">CSS backgrounds and borders</a>
+                <a href="#">CSS basic user interface</a>
+                <a href="#">CSS box alignment</a>
+                <a href="#">CSS box model</a>
+                <a href="#">CSS box sizing</a>
+                <a href="#">CSS cascading and inheritance</a>
+                <a href="#">CSS color adjustment</a>
+                <a href="#">CSS colors</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Properties</summary>
+                <a href="#">-moz-*</a>
+                <a href="#">-webkit-*</a>
+                <a href="#">align-*</a>
+                <a href="#">animation-*</a>
+                <a href="#">background-*</a>
+                <a href="#">border-*</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Selectors</summary>
+                <a href="#">& nesing selector</a>
+                <a href="#">Attribute selectors</a>
+                <a href="#">Class selectors</a>
+                <a href="#">ID selectors</a>
+                <a href="#">Type selectors</a>
+                <a href="#">Universal selectors</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Combinators</summary>
+                <a href="#">Child combinator</a>
+                <a href="#">Column combinator</a>
+                <a href="#">Descendant combinator</a>
+                <a href="#">Namespace seperator</a>
+                <a href="#">Next-sibling combinator</a>
+                <a href="#">Selector list</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Pseudo-classes</summary>
+                <a href="#">:-moz-*</a>
+                <a href="#">:first-*</a>
+                <a href="#">:focus-*</a>
+                <a href="#">:nth-*</a>
+                <a href="#">:target-*</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Pseudo-elements</summary>
+                <a href="#">::moz-*</a>
+                <a href="#">::webkit-*</a>
+                <a href="#">::scroll-*</a>
+                <a href="#">::view-*</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>At-rules</summary>
+                <a href="#">@charset</a>
+                <a href="#">@color-profile</a>
+                <a href="#">@container</a>
+                <a href="#">@counter-style</a>
+                <a href="#">@document</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Functions</summary>
+                <a href="#">-moz-image-rect</a>
+                <a href="#">abs()</a>
+                <a href="#">acos()</a>
+                <a href="#">anchor-size()</a>
+                <a href="#">anchor()</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Types</summary>
+                <a href="#">absolute-size</a>
+                <a href="#">alpha-value</a>
+                <a href="#">angle-percentage</a>
+                <a href="#">angle</a>
+                <a href="#">baseline-position</a>
+            </details>
+            </div>
+
+            <h2><a href="#">Guides</a></h2>
+
+            <div class="nested-links">
+            <details>
+                <summary>Animations</summary>
+                <a href="#">Animatable CSS properties</a>
+                <a href="#">Using CSS animations</a> 
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Backgrounds and Borders</summary>
+                <a href="#">Using multiple backgrounds</a>
+                <a href="#">Resizing background images</a>
+                <a href="#">Scaling of SVG background</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Box alignment</summary>
+                <a href="#">Overview</a>
+                <a href="#">Box alignment in block layout</a>
+                <a href="#">Box alignment in flexbox</a>
+                <a href="#">Box alignment in grid layout</a>
+                <a href="#">Box alignment in multi-column layout</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Box model</summary>
+                <a href="#">Introductionto the CSS basic box model</a>
+                <a href="#">Mastering margin collapsing</a>
+            </details>
+            </div>
+            
+            <div class="nested-links">
+            <details>
+                <summary>Colors</summary>
+                <a href="#">Applying color to HTML</a>
+                <a href="#">Color values</a>
+                <a href="#">Using relative colors</a>
+                <a href="#">Using color wisely</a>
+                <a href="#">Accessibility: Colors and luminance</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Columns</summary>
+                <a href="#">Basic concepts of multi-column layout</a>
+                <a href="#">Styling columns</a>
+                <a href="#">Using multi-column layouts</a>
+                <a href="#">Spanning and balancing columns</a>
+                <a href="#">Handling overflow in multi-column layout</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Conditional rules</summary>
+                <a href="#">Using feature queries</a>
+                <a href="#">Using container scroll-state queries</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Containment</summary>
+                <a href="#">Using CSS Containment</a>
+                <a href="#">CSS container queries</a>
+                <a href="#">Using container size and style queries</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>CSSOM view</summary>
+                <a href="#">Coordinate systems</a>
+                <a href="#">Viewport concepts</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Display</summary>
+                <a href="#">Block and inline layout in normal flow</a>
+                <a href="#">Block formatting context</a>
+                <a href="#">CSS flow layout</a>
+                <a href="#">Flow layout and overflow</a>
+                <a href="#">Flow layout and writing modes</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Flexbox</summary>
+                <a href="#">Basic concepts of flebox</a>
+                <a href="#">Relationship of flexbox to other layout methods</a>
+                <a href="#">Aligning items in a flex container</a>
+                <a href="#">Ordering flex item</a>
+                <a href="#">Typical use cases of flexbox</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Fonts</summary>
+                <a href="#">OpenType font features guide</a>
+                <a href="#">Variable fonts guide</a>
+                <a href="#">Web open font format (WOFF)</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Grid</summary>
+                <a href="#">Basic concept of grid layout</a>
+                <a href="#">Grid template areas</a>
+                <a href="#">Layout using named grid lines</a>
+                <a href="#">Auto-placement in grid layout</a>
+                <a href="#">Aligning item in CSS grid layout</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Images</summary>
+                <a href="#">Using CSS gradients</a>
+                <a href="#">Styling replaced elements</a>
+                <a href="#">Implementing image sprites in CSS</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Lists and counters</summary>
+                <a href="#">Using CSS Counters</a>
+                <a href="#">Consist list indentation</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Logical properties</summary>
+                <a href="#">Basic concept of logical properties and values</a>
+                <a href="#">Logical properties for floating and positioning</a>
+                <a href="#">Logical properties margin, border and padding</a>
+                <a href="#">Logical properties for sizing</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Media queries</summary>
+                <a href="#">Using media queries</a>
+                <a href="#">Using media queries for Accessibility</a>
+                <a href="#">Testing media queries programmatically</a>
+                <a href="#">Printing</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Nesting style rules</summary>
+                <a href="#">Using CSS nesting</a>
+                <a href="#">CSS nesting at-rules</a>
+                <a href="#">CSS nesting and specifity</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Positioning</summary>
+                <a href="#">Stacking context</a>
+                <a href="#">Stacking floating elements</a>
+                <a href="#">Understanding z-index</a>
+                <a href="#">Using z-index</a>
+                <a href="#">Stacking without the z-index property</a>
+            </details>
+            </div>
+
+
+            <div class="nested-links">
+            <details>
+                <summary>Scroll snap</summary>
+                <a href="#">Basic concept of scroll snap</a>
+                <a href="#">Using scroll snap event</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Shapes</summary>
+                <a href="#">Overview shapes</a>
+                <a href="#">Shapes from box values</a>
+                <a href="#">Basic shapes with shape-outside</a>
+                <a href="#">Shape from images</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Text</summary>
+                <a href="#">Wrapping and breaking text</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Transforms</summary>
+                <a href="#">Using CSS tranforms</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Transitions</summary>
+                <a href="#">Using CSS transitions</a>
+            </details>
+            </div>
+
+            <div class="nested-links">
+            <details>
+                <summary>Values and units</summary>
+                <a href="#">Value definition syntax</a>
+                <a href="#">Numeric data types</a>
+                <a href="#">Textual data types</a>
+                <a href="#">Using CSS math function</a>
+            </details>
+            </div>
+                
+            <div class="layout-coookbook">
+             <h2><a href="#">CSS Layout cookbook</a></h2>
+             <p><a href="#">Recipe: Media objects</a></p>
+             <p><a href="#">Column layouts</a></p>
+             <p><a href="#">Center an element</a></p>
+             <p><a href="#">Sticky footers</a></p>
+             <p><a href="#">Split navigation</a></p>
+             <p><a href="#">Breadcrumb navigation</a></p>
+             <p><a href="#">list group with badges</a></p> 
+             <p><a href="#">Pagination</a></p>
+             <p><a href="#">Card</a></p>
+             <p><a href="#">Grid wrapper</a></p>
+
+             <h2><a href="#">Tools</a></h2>
+             <p><a href="#">Color picker tool</a></p>
+             <p><a href="#">Box-shadow generator</a></p>
+             <p><a href="#">Border-image generator</a></p>
+             <p><a href="#">Border-radius generator</a></p>
+             </div>
+        </div>
+
+
+.middle-section{
+    background-color: white;
+    width: 60%;
+    /* height: 100%; */
+    height: auto;
+    overflow-y: visible;
+    padding: 30px 50px;
+}
+
+.right-section{
+    background-color: white;
+    width: 20%;
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+}
+
+.filter-input{
+    position: relative;
+    /* margin-bottom: 20px; */
+    margin-top: 5px;
+}
+
+.filter-input input{
+    width: 80px;
+    height: 28px;
+    outline: none;
+    border :rgb(153, 152, 152) solid 1px;
+    border-radius: 20px;
+    padding: 0 10px 0 30px;
+    /* padding: 0 10px; */
+}
+
+.filter-input i{
+    position: absolute;
+    top: 9px;
+    /* bottom: -20px; */
+    left: 10px;
+    color: rgb(153, 152, 152);
+    font-size: 11px;
+}
+
+.filter-input input:focus{
+    width: 100%; 
+}
+
+.css{
+    background-color: #cfe8fd;
+    width: 60px;
+    padding: 10px 15px;
+    margin-top: 40px;
+    border-top-right-radius: 8px ;
+    border-bottom-right-radius: 8px;
+    border-left: #4081cb 3px solid;
+    font-size: 15px;
+}
+
+.css a{
+    color: rgb(70, 67, 67);
+    font-weight: 600;
+}
+
+.css:hover{
+       text-decoration: underline;
+}
+
+.left-section h2{
+     margin: 20px 0  10px 0;
+}
+
+.left-section h2 a{
+    color:  rgb(95, 93, 93);
+    font-size: 18px;
+}
+
+.left-section h2 a:hover{
+    text-decoration: underline;
+}
+
+.left-section .layout-coookbook{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.layout-coookbook a{
+    color: rgb(70, 69, 69);
+    margin-left: 10px;
+}
+
+
+.left-section p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.left-section p a{
+      color: rgb(70, 69, 69);
+}
+
+.left-section p a:hover{
+    text-decoration: underline;
+}
+
+.nested-links a{
+    display: flex;
+}
+.left-section summary{
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 40px;
+    color:rgb(70, 67, 67) ;
+}
+
+.left-section summary:hover{
+    color:rgb(70, 67, 67) ;
+    text-decoration: underline;
+}
+
+.left-section details a{
+    color:rgb(70, 67, 67) ;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.left-section details a:hover{
+    text-decoration: underline;
+}
+
+
+/*-------------------- left section end--------------- */
+
+
+/*-------------------- Right section start--------------- */
+
+.right-section p{
+    color: black;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-left: 2px solid rgb(148, 147, 147) ;
+    /* margin-left: 10px; */
+}
+
+.article a{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.article a:hover{
+    color: #3480d6;
+}
+
+/*-------------------- Right section End--------------- */
+
+
+/*-------------------- Middle section Start--------------- */
+
+/* .middle-section{
+    display: flex;
+    justify-content: center;
+} */
+
+.middle-section h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.middle-section .para-1, .para-2, .para-3{
+    padding: 20px 0;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.middle-section h2 a{
+    color: black;
+    font-size: 25px;
+}
+
+.middle-section h2 a:hover{
+     text-decoration: underline;
+}
+
+.tutorial-main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tutorial-main h2 a{
+    font-size: 30px;
+}
+
+.tutorial-1  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-2  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-3  .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-4 .tutorial-heading a{
+    text-decoration: underline;
+}
+
+.tutorial-1 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-2 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-3 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: px;
+}
+
+.tutorial-4 p{
+    padding-left: 20px;
+    padding-top: 15px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.reference-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.reference-main h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.reference-main h2 a{
+     font-size: 30px;
+}
+
+.reference-main li a{
+    line-height: 38px;
+    text-decoration: underline;
+}
+
+.cookbook-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cookbook-main h2{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.cookbook-main h2 a{
+    font-size: 30px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tools h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.tools h2 a{
+    font-size: 30px;
+}
+
+.tools li a{
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+.meta-bugs{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-bugs h2 a{
+     font-size: 30px;
+}
+
+.meta-bugs h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.see-also{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.see-also h2{
+     margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.see-also h2 a{
+    font-size: 30px;
+}
+
+.improve-card{
+    background-color: #f9f9fb;
+    /* width: 500px; */
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 148, 148) ;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    position: relative;
+}
+
+.improve-btns{
+    display: flex;
+    gap: 10px;
+}
+.btn-yes{
+    width: 100px;
+    height: 30px;
+    padding: 2px 2px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-no{
+     width: 100px;
+    height: 30px;
+    padding: 2px 2px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-yes:hover{
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.btn-no:hover{
+    border: none;
+    background-color: rgb(189, 48, 48);
+    color: white;
+}
+
+.improve-card-para{
+    margin-top: 20px;
+}
+
+.improve-card-img{
+    position: absolute;
+    right: 10px;
+    /* top: 10px; */
+    bottom: 110px;
+}
+
+/* Hero Section End */
+
+
+/* Footer start */
+
+.top-footer{
+    max-width: 100vw;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.fa-brands.fa-gitlab{
+    color: orange;
+}
+
+.top-footer-text{
+    font-size: 12px;
+}
+
+.top-footer-text i{
+    margin-left: 10ppx;
+}
+
+.access-btn button{
+    width: 90px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 11px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.top-footer-img img{
+    width: 145px;
+    height: 145px;
+    margin-top: 30px;
+}
+
+
+/* Mid Footer Start */
+.mid-footer{
+    max-width: 100vw;
+    height: 215px;
+    background-color: whiite;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.mid-footer-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+    padding-left: 5px;
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-col-1 p{
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-1 h2{
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-col-2 h4{
+    color: rgb(103, 102, 102) ;
+}
+
+.footer-col-2 p{
+    font-size: 13px;
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-3{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-col-3 h4{
+    color: rgb(103, 102, 102) ;
+}
+
+.footer-col-3 p{
+    font-size: 13px;
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-4{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-col-4 h4{
+    color: rgb(103, 102, 102) ;
+}
+
+.footer-col-4 p{
+    font-size: 13px;
+    color: rgb(70, 69, 69) ;
+}
+
+.footer-col-5{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-col-5 h4{
+     color: rgb(103, 102, 102) ;
+}
+
+.footer-col-5 p{
+    font-size: 13px;
+    color: rgb(70, 69, 69) ;
+}
+
+/* Mid Footer End */
+
+
+/* Bottom footer start */
+
+.bottom-footer{
+    max-width: 100vw;
+    height: 150px;
+    background-color: white;
+    border-top: 1px solid rgb(166, 164, 164);
+    padding-left: 10px;
+}
+
+.bot-footer-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+
+.footer-logo img{
+    width: 150px;
+    height: 80px;
+    color: rgb(66, 63, 63);
+}
+
+
+.bot-footer-text a{
+    text-decoration: underline;
+    color: rgb(70, 69, 69) ;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.bot-footer-text{
+    margin-top: 30px;
+}
+
+.bot-footer-para{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 4px;
+    color: rgb(70, 69, 69);
+}
+
+.bot-footer-para a{
+    color: rgb(70, 69, 69);
+    text-decoration: underline;
+}
