@@ -1,0 +1,19 @@
+@media (max-width: 650px) {
+    .hero-section .main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: auto;
+  }
+
+  .hero-text{
+    width: 100%;
+  }
+
+  .hero-img{
+    text-align: center;
+    width: 300px;
+    height: 500px;
+  }
+}

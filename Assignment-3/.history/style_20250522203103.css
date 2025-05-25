@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100vw;
+    height: 70px;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.nav-links{
+    display: flex;
+    margin-right: 90px;
+    gap: 120px;
+}
+
+.nav-links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    color: ;
+}
