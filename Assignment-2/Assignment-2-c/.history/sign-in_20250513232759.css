@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 40px;
+    font-family: Roboto;
+}
+
+.main{
+    background-color: #e3edf5;
+    width: 1100px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo{
+    color: white;
+    font-size: 12px;
+}
+.left-side{
+    background-color: #364cf5;
+    height: 550px;
+    width: 350px;
+    margin-left: 25px;
+    border-radius: 7px;
+    padding: 28px;
+    display: inline-block;
+}
+
+.left-side h5{
+    color: white;
+    font-size: 20px;
+    padding: 60px 0px;
+}
+
+.para{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(218, 214, 214);
+    padding-bottom: 60px;
+}
+
+.slide{
+    background-color: #241df2;
+    height: 190px;
+    width: 300px;
+    margin:0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.slide p{
+    font-size: 14px;
+    margin-top: 10px;
+    /* color: white; */
+    color: rgb(218, 214, 214);
+    padding-bottom: 30px;
+}
+
+.slide-move{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: white solid 1px;
+    display: inline-block;
+}
+
+.color-circle{
+    background-color: white;
+}
+
+.pfp img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.user-info{
+    color: white;
+}
+
+.user-info h6{
+    padding-top: 13px;
+    color: rgb(218, 214, 214);
+}
+
+.user-info strong{
+    font-size: 12px;
+}
+
+.right-side{
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+}
+
+.right-side h1{
+    font-size: 25px;
+}
+
+.sign-in-para{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.form-elements{
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.password-input{
+    width: 600px;
+    height: 50px;
+}
+
+.email-input{
+    width: 600px;
+    height: 50px;
+}
+
+input{
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+
+input:focus{
+    outline-style: none;
+}
+
+.email-label{
+    font-size: 15px;
+    color:  rgb(114, 112, 112);
+}
+
+.password-label{
+    font-size: 15px;
+    color:  rgb(114, 112, 112);
+}
+
+.btn{
+    background-color: #3f39f6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    height: 45px;
+    width: 190px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) and {
+  body {
+    margin-top: 20px;
+  }
+
+  .main {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .left-side {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .right-side {
+    width: 100%;
+    padding: 0;
+  }
+
+  .email-input,
+  .password-input {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

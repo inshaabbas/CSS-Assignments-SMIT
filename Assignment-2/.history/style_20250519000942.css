@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: 	#E6E6FA;
+}
+
+header{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #DA70D6;
+}
+
+.logo h1{
+    font-size: 30px;
+    color: rgb(194, 137, 68);
+     color: 	#D8D8D8;
+}
+
+.nav-links{
+    display: flex;
+    gap: 70px;
+}
+
+.nav-links a:hover{
+    color: 	#a31127;
+    text-decoration: underline;
+}
+
+.nav-links a{
+    color: white;
+    font-size: 22px;
+     color: #D8D8D8;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 99;
+    flex-direction: column;
+    border-radius: 10px;
+} 
+
+.dropdown-content a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.menu-icon {
+    display: none;
+    position: relative;
+} 
+
+
+.menu-icon:hover .dropdown-content {
+    display: flex;
+}
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasks-cont{
+    background-color: #c8b2e0;
+    width: 700px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.task-1, .task-2, .task-3, .task-4 {
+    width: 250px;
+    height: 230px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    border: 2px solid  #D8BFD8;
+}
+
+.task-1 img{
+    width: 250px;
+    height: 120px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.task-2 img{
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.task-3 img{
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.task-4 img{
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.links{
+    margin-left: 15px;
+    line-height: 30px;
+}
+
+.links a{
+    color: 	#4B0082;
+    text-decoration: none;
+}
+
+@media (max-width: 1040px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-btn {
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .dropdown-content{
+        background-color: black;
+    }
+
+    .tasks-cont {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+}
