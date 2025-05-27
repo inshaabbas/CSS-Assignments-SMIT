@@ -1,0 +1,12 @@
+@media (max-width: 7px) {
+    .hero-section .main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-img img{
+    width: 150px;
+    height: 400px;
+  }
+}

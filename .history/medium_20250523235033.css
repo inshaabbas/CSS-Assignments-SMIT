@@ -1,0 +1,26 @@
+@media (max-width: 650px) {
+    .hero-section-1 .main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: auto;
+  }
+
+  .hero-section-2 .main{
+    
+  }
+
+  .hero-text{
+    width: 100%;
+  }
+
+  .hero-img{
+    text-align: center;
+  }
+
+  .hero-img img{
+    width: 300px;
+    height: 500px;
+  }
+}

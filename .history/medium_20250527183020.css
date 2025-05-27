@@ -1,0 +1,297 @@
+/* @media (max-width: 650px) {
+
+  .main {
+    max-width: 100%;  
+    width: 100%;
+    margin: 0;        
+    padding: 20px;    
+    box-sizing: border-box;
+  }
+
+    .hero-section-1 .main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .hero-text{
+    width: 100%;
+  }
+
+  .hero-img{
+    text-align: center;
+  }
+
+  .hero-img img{
+    width: 300px;
+    height: 500px;
+  }
+} */
+
+
+@media (min-width: 344px)  and (max-width: 649px){
+
+   /* Responsive Header */
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    /* margin-right: 20px; */
+  }
+
+  /* Hero section 1 Starts*/
+  .hero-section-1 .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 1200px; */
+    height: auto;
+  }
+
+  .hero-section-1{
+    padding-top: 0px;
+}
+
+  .hero-text h1{
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .hero-text p{
+    font-size: 15px;
+    width: 200%;
+    text-align: justify;
+  }
+
+  .hero-btn-1{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .hero-img img{
+    width: 250px;
+    height: 300px;
+  }
+
+  .hero-btn-2{
+    width: 200%;
+    text-align: center;
+  }
+
+  /* Hero Section 1 Ends */
+
+  /* Hero Section 2 Starts */
+
+  .hero-section-2 .main{
+    /* height: 1050px; */
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+  }
+
+  .hero-section-2-main{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+
+  .hero-sec-2-img img{
+    width: 320px;
+    height: 290px;
+    text-align: center;
+    /* background-color: blueviolet; */
+  }
+
+  .hero-sec-2-text{
+    margin-left: 10px;
+    text-align: left;
+}
+
+/* Hero Section 2 Starts */
+
+/* About Section 1 Starts */
+
+.about-sec-1{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.about-btn-1{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .about-img img{
+    width: 250px;
+    height: 300px;
+  }
+
+  .about-btn-2{
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-img-1 img{
+    width: 300px;
+    height: 280px;
+    margin-top: 20px;
+  }
+
+  /* About Section 2 Starts */
+
+  .about-sec-2 h3{
+    font-size: 25px;
+  }
+
+  .numbers-stat h3{
+    font-size: 28px;
+  }
+
+  .numbers-stat p{
+    font-size: 18px;
+  }
+
+  .numbers-stat{
+    line-height: 5px;
+  }
+
+   /* About Section 2 Ends */
+
+    /* About Section 4 Starts */
+
+  .about-sec-4-main{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-4-btn-1{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .about-4-btn-2{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-sec-4-img img{
+    width: 300px;
+    height: 350px;
+  }
+
+  .about-sec-4-text{
+    margin-top: 10px;
+  }
+
+   /* About Section 4 Ends */
+
+    /* About Section 4 Starts */
+
+   .about-5-btn-2{
+    width: 90%;
+   }
+
+   .about-sec-5 p{
+    width: 80%;
+    text-align: justify;
+   }
+
+    /* About Section 4 Ends */
+
+    .contact-main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .form{
+      height: 350px;
+      width: 250px;
+    }
+
+    .form p{
+    font-size: 18px;
+    }
+
+    .form input{
+      margin-top: 10px;
+    }
+
+    .contact-text{
+      height: 350px;
+      width: 250px;
+    }
+
+    .send-msg-btn{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+
+
+    /* Footer 1 Starts */
+
+    .links, .services, .contact , .follow{
+    font-size: 13px;
+}
+
+   .links{
+  gap: 15px;
+}
+
+     .links a{
+      font-size: 12px;
+    }
+
+   .services{
+     gap: 15px;
+     margin-bottom: 20px;
+   }
+
+    .services a{
+      font-size: 12px;
+    }
+
+   .contact{
+    gap: 15px;
+   }
+
+   .contact a{
+    font-size: 12px;
+   }
+
+   .follow{
+    gap: 15px;
+   }
+
+   .follow a{
+    font-size: 12px;
+   }
+
+    /* Footer 1 Ends */
+
+     /* Footer 2 Starts */
+
+     .footer-2 p{
+      font-size: 13px;
+     }
+
+     .back-to-top{
+      width: 25px;
+      height: 25px;
+     }
+
+     .footer-2 a i{
+      right: 8px;
+      font-size: 12px;
+     }
+
+     /* Footer 2 Ends */
+}
