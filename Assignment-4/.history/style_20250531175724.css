@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Roboto;
+}
+
+.main{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+/* Header Starts */
+
+header .main{
+    height: 70px;
+    /* width: 100vw; */
+    background-color: #00000033;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.logo p{
+    font-weight: bold;
+}
+
+.nav-link nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.trial-btn{
+    background-color: #0066FF;
+    border: none;
+    color: white;
+    width: 130px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 12px 16px;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.mobl-nav{
+    display: none;
+}
+
+/* Header Ends */
+
+/* Hero Section Starts */
+
+.hero-section .main{
+    background-color: #eff0f1;
+    /* width: 100vw; */
+    height: 800px;
+    padding: 120px 0 50px 0;
+}
+
+.hero-main{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-headings h2{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.input-container {
+    display: flex; 
+}
+
+.email-input{
+    outline: none;
+    border: 2px #0066FF solid;
+    width: 250px;
+    height: 45px;
+    padding: 13px 12px;
+}
+
+.input-btn{
+    border: 2px #0066FF solid;
+    padding: 13px 12px;
+    color: white;
+    background-color: #0066FF;
+    width: 150px;
+    height: 45px;
+    font-size: 13px;
+}
+
+.list{
+    display: flex;
+    gap: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.story-popup img{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: -28px;
+}
+
+.person-img{
+    width: 200px;
+    height: 360px;
+}
+
+.stories{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.story-1{
+    height: 185px;
+}
+
+.story-2{
+    height: 185px;
+}
+
+.insta-icon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 330px;
+    top: 240px;
+}
+
+.insta-icon img{
+    width: 35px;
+    height: 35px;
+}

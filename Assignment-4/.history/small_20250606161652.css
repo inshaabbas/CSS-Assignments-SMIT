@@ -1,0 +1,340 @@
+
+@media (max-width: 576px) {
+  /* Hero Section Starts */
+  .hero-headings h2 {
+    font-size: 28px;
+  }
+
+  .hero-headings p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .email-input, .input-btn {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .story-popup img {
+    width: 140px;
+    height: auto;
+    top: -50px;
+  }
+
+  .person-img {
+    width: 160px;
+    height: 265px;
+  }
+
+  .story-1,
+  .story-2 {
+    height: 135px;
+  }
+
+  .insta-icon {
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    top: 170px;
+  }
+
+  .insta-icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .hero-para p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .para-logos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .list li{
+    font-size: 12px;
+   }
+
+
+
+  .benefit-sec-2-text {
+    padding-top: 30px;
+    line-height: 30px;
+  }
+
+  .benefit-sec-2-text h2 {
+    font-size: 28px;
+  }
+
+  .benefit-sec-2-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit-sec-2-cards .card-brand,
+  .benefit-sec-2-cards .card-marketers,
+  .benefit-sec-2-cards .card-web-designer {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .benefit-sec-2-quote img {
+    width: 60px;
+  }
+
+  .benefit-sec-2-quote p {
+    font-size: 14px;
+  }
+
+  .profile img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile h3 {
+    font-size: 16px;
+  }
+
+
+  .instructions{
+    width: 260px;
+  }
+
+
+
+  .integration-section .main {
+    padding: 20px 15px;
+  }
+
+  .int-text img {
+    width: 120px;
+    align-self: center;
+  }
+
+  .int-text h2 {
+    font-size: 24px;
+  }
+
+  .int-text p,
+  .int-text li {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .int-img img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
+
+
+  .cta-text-sec h2 {
+    font-size: 24px;
+  }
+
+  .cta-text-sec p {
+    font-size: 13px;
+  }
+
+  .email-input {
+    width: 100%;
+  }
+
+  .cta-img img {
+    width: 90%;
+    max-width: 260px;
+  }
+
+  .cta-list {
+    align-items: center;
+    gap: 5px;
+  }
+
+
+
+
+  .proof-sec-text h2 {
+    font-size: 24px;
+  }
+
+  .proof-sec-text p {
+    width: 320px;
+    font-size: 12px;
+  }
+
+  .proof-sec-text img{
+    margin-top: 20px;
+  }
+
+  .proof-sec-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+
+
+
+  .pricing-section .main {
+    padding: 30px 20px;
+  }
+
+  .price-sec-text h2 {
+    font-size: 26px;
+  }
+
+  .monthly-button {
+    height: auto;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .annually-button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .price-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .pro:hover::before{
+    width: 280px;
+  }
+
+  .pro-plus:hover::before{
+    width: 280px;
+  }
+
+  .price-cards .free,
+  .price-cards .pro,
+  .price-cards .pro-plus,
+  .price-cards .premium {
+    width: 300px;
+  }
+
+  .pro:hover::before,
+  .pro-plus:hover::before {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .faq-sec h2 {
+    font-size: 24px;
+  }
+
+  .faq-item {
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  .faq-question b {
+    font-size: 14px;
+  }
+
+  .faq-answer p {
+    font-size: 14px;
+  }
+
+
+
+
+  .social-section .main {
+    gap: 30px;
+    padding: 10px;
+    height: auto; 
+  }
+
+  .social-text h2 {
+    width: 100%;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .social-img img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  .cta-footer-sec .main {
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .cta-foot-text h2 {
+    font-size: 28px;
+  }
+
+  .cta-foot-text p {
+    font-size: 14px;
+  }
+
+  .email-input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .input-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+  footer .main {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    height: auto;
+    text-align: center;
+  }
+
+    .footer-logo{
+        display: flex;
+        align-items: center;
+    }
+
+  .footer-logo,
+  .product,
+  .company,
+  .int-1,
+  .int-2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .foot-para {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .product p,
+  .company p,
+  .int-1 p,
+  .int-2 p {
+    font-size: 14px;
+  }
+
+
+}
+

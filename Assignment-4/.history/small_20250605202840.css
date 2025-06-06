@@ -1,0 +1,13 @@
+@media screen and (max-width: 820px) {
+    .hero-main{
+    display: flex; 
+    flex-direction: column;
+    justify-content: ;
+    align-items: flex-start;
+    padding: 20px;
+    }
+
+    .hero-headings h2{
+    width: 100%;
+    }
+}

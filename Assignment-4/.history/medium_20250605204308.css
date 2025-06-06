@@ -1,0 +1,115 @@
+
+
+@media screen and (max-width: 1245px) {
+    /* Header Responsive Starts */
+
+    .mobl-nav {
+     position: fixed;
+     top: 70px;
+     right: 0;
+     background: #cccccc;
+     width: 100vw;
+     height: 350px;
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     z-index: 999;
+    }
+
+    .mobl-nav a {
+     color: black;
+     font-size: 18px;
+     text-decoration: none;
+    }
+
+    .close-btn {
+     position: absolute;
+     top: -15px;
+     right: 30px;
+     font-size: 30px;
+     color: black;
+     cursor: pointer;
+    }
+    #menu-toggle:checked ~ .mobl-nav{
+        display: flex;
+    }
+
+    .mobl-nav p{
+        color: black;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+
+    .btns{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 20px;
+    }
+
+/* Header Responsive Starts */ 
+
+.hero-headings h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+
+/* MEDIUM SCREENS - Tablets */
+@media (max-width: 992px) {
+  .hero-main {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-headings h2 {
+    font-size: 36px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .email-input, .input-btn {
+    width: 90%;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+  }
+
+  .hero-img {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .insta-icon {
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+  }
+}
+}

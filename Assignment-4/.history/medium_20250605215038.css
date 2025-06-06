@@ -1,0 +1,232 @@
+
+
+@media screen and (max-width: 1245px) {
+    /* Header Responsive Starts */
+
+    .mobl-nav {
+     position: fixed;
+     top: 70px;
+     right: 0;
+     background: #cccccc;
+     width: 100vw;
+     height: 350px;
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     z-index: 999;
+    }
+
+    .mobl-nav a {
+     color: black;
+     font-size: 18px;
+     text-decoration: none;
+    }
+
+    .close-btn {
+     position: absolute;
+     top: -15px;
+     right: 30px;
+     font-size: 30px;
+     color: black;
+     cursor: pointer;
+    }
+    #menu-toggle:checked ~ .mobl-nav{
+        display: flex;
+    }
+
+    .mobl-nav p{
+        color: black;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+
+    .btns{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 20px;
+    }
+
+/* Header Responsive Starts */ 
+
+.hero-headings h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+
+
+/* MEDIUM SCREENS - Tablets */
+@media (max-width: 992px) {
+  .hero-main {
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-headings h2 {
+    font-size: 36px;
+  }
+
+  .input-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .email-input, .input-btn {
+    width: 90%;
+  }
+
+  .list {
+    align-items: center;
+    gap: 5px;
+    padding: 0;
+  }
+
+  .hero-img {
+    padding: 0;
+  }
+
+  .story-popup img{
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    top: -50px;
+}
+
+  .insta-icon {
+    left: -30px;
+    top: 250px;
+    /* bottom: 20px; */
+  }
+
+  .about-sec .main {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 30px;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+  }
+
+  .about-text {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .about-text h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .about-btns {
+    align-items: center;
+  }
+
+  .about-btns img {
+    width: 220px;
+  }
+}
+
+
+
+.benenfit-sec-2 .main {
+    padding: 20px 10px;
+    gap: 30px;
+  }
+
+  .benefit-sec-2-text h2 {
+    font-size: 26px;
+  }
+
+  .benefit-sec-2-cards {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .benefit-sec-2-cards .card-brand,
+  .benefit-sec-2-cards .card-marketers,
+  .benefit-sec-2-cards .card-web-designer {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+  }
+
+  .benefit-sec-2-quote {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .benefit-sec-2-quote p {
+    font-size: 15px;
+  }
+
+  .profile img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile h3 {
+    font-size: 18px;
+  }
+
+
+  .template-text p{
+    width: 320px;
+    height: 56px;
+}
+
+
+
+
+.integration-section .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 30px 20px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .int-text h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .int-text p {
+    font-size: 15px;
+  }
+
+  .int-text img{
+    align-se
+  }
+
+  .int-img img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+
+
+}

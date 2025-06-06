@@ -1,0 +1,9 @@
+@media screen and (max-width: 820px) {
+    .hero-main{
+    display: flex; 
+    flex
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    }
+}

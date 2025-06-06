@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    #menu-toggle ~ .mobl-nav{
+        display: flex;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .close-btn{
+        display: ;
+    }
+}

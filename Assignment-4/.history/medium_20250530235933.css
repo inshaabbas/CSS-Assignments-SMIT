@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+    /* Styles for screens smaller than or equal to 768px */
+    .main {
+        flex-direction: column; /* Stack children vertically */
+        align-items: flex-start;
+    }
+}

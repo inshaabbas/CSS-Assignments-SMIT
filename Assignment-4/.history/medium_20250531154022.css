@@ -1,0 +1,22 @@
+
+@media screen and (max-width: 768px) {
+    
+    .nav-link{
+        display: none;
+    }
+
+    .btns{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        font-size: 20px;
+    }
+
+    /* header .main{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    } */
+}
