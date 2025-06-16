@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #f8b864;
+    height: 40px;
+    width: 100vw;
+}
+
+.top-text{
+    display: flex;
+    align-items: center;
+    justify-content: center i;
+    /* text-align: center; */
+    gap: 20px;
+    color: white;
+}

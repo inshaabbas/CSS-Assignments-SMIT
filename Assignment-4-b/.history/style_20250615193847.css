@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #f8b864;
+    height: 50px;
+    width: 100vw;
+}
+
+.top-text{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.top-text p {
+    text-align: center;
+    margin: 0;
+}
+
+.top-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav img{
+    width: 204px;
+    height: 50px;
+}
+
+nav ul li, button{
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+nav .nav-link:hover{
+    color: var(--themeColor);
+    transition: all 0.5s ease;
+}

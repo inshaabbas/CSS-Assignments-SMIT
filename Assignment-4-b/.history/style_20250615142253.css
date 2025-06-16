@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+    background-color: #f8b864;
+    height: 70px;
+    width: 100vw;
+}
+
+.top-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.top-text p {
+    text-align: center;
+}
+
+.top-btn{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
