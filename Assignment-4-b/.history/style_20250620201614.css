@@ -984,7 +984,7 @@ nav .nav-link:hover{
   font-size: 40px;
 }
 
-
+/* Medium screens (tablets) */
 @media (max-width: 991px) {
   .numbers {
     gap: 30px;
@@ -1005,7 +1005,7 @@ nav .nav-link:hover{
   }
 }
 
-
+/* Small screens (mobiles) */
 @media (max-width: 575px) {
   .numbers {
     flex-direction: column;
@@ -1039,5 +1039,3 @@ nav .nav-link:hover{
     font-size: 20px;
   }
 }
-
-/* ========== Feedback Section Ends ======= */
