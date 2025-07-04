@@ -1,0 +1,136 @@
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav img{
+    width: 220px;
+    height: 60px;
+}
+
+nav ul li, button{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+nav .nav-link:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+/* ============= Navbar Start ============= */
+@media (min-width: 992px){
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block; 
+        margin-top: 0; 
+      }
+
+      .dropdown-menu{
+        transition: all 0.3s ease; 
+      }
+
+      .dropdown-toggle::after {
+        display: none;
+      }
+      
+    }
+@media (max-width: 992px){
+  .dropdown-menu li .dropdown-divider{
+    display: none;
+  }
+
+  .dropdown-menu li{
+    padding-bottom: 5px;
+  }
+
+  nav .btn:focus{
+    background-color: var(--themeHoverColor);
+    color: var(--whiteColor);
+  }
+
+  .dropdown-menu {
+    box-shadow: none;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 9999;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 520px){
+  .top-nav{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav img{
+    width: 150px;
+    height: 40px;
+}
+}
+
+@media (max-width: 330px){
+  .contact{
+    flex-direction: column;
+  }
+
+  .top-nav{
+    gap: 15px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin: 0 auto; 
+    position: absolute;
+    left: 0;
+    right: 30;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navbar-toggler {
+    z-index: 2; /* keep toggler on top */
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    width: 250px;
+    height: 70px;
+  }
+}
+
+
+
+
+.hero-section{
+  background-image: url(./);
+}

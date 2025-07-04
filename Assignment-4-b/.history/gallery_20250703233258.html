@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animate CSS CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- External Style sheet -->
+     <link rel="stylesheet" href="./gallery.css">
+    <title>Gallery</title>
+</head>
+<body>
+     <!-- Top Header Starts-->
+     <header>
+  <div class="top-nav-bg">
+  <div class="container-xxl d-flex justify-content-between align-items-center py-3">
+    <div class="contact d-flex gap-2 align-items-center">
+      <i class="fa-solid fa-envelope"></i> <span>Info@YourDomain.com</span>
+      <i class="fa-solid fa-mobile-screen"></i> <span>+(333) 052 39876</span>
+    </div>
+    <div class="icons d-flex gap-2 align-items-center">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+  </div>
+</div>
+  </header>
+     <!-- Top Header Ends -->
+      
+  <!-- Navbar Starts -->
+    <nav class="container-xxl navbar navbar-expand-lg navbar-light bg-light justify-content-between" style="height: 80px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/Charity-logo.png" alt="Website Logo" />
+      </a>
+      <button class="navbar-toggler tog" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarScroll">
+        <ul class="navbar-nav mx-auto me-2 my-lg-0 navbar-nav-scroll">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Home</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./index.html">Home Default</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./modern-home.html">Home Modern</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="./cause.html">Causes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Event</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Gallery</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Volunteers</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">404 Not Found</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Blog Left Sidebar</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Blog Right Sidebar</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Blog Single</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+          <button class="btn" type="button" style="background-color: #f8b864; color: white; font-size: 16px; padding: 10px 20px;">Donate Now</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar Ends -->
+
+ <!-- Hero Section Starts -->
+   <section class="hero-section">
+    <div class="hero-text container-xxl">
+      <h2>Image Gallery</h2>
+      <p>Help today because tomorrow you may be the one who needs more helping!</p>
+      <div class="hero-link">
+      <p><a href="./index.html" class="link-hover">Home</a></p>
+      <p>&#47;</p>
+      <p><a href="./about.html" style="color: #f8b864; font-weight: bold;">Gallery</a></p>
+      </div>
+    </div>
+
+    <div class="gallery-section">
+        <a href="#gallery1"><button>All</button></a>
+        <a href="#gallery2"><button>Branding</button></a>
+        <a href="#gallery3"><button>Design</button></a>
+        <a href="#gallery4"><button>Wordpress</button></a>
+        <a href="#gallery5"><button>Marketing</button></a>
+
+  <div id="gallery1" class="gallery">
+    <img src="./Assets/All-1.jpg" alt="Image 1">
+    <img src="./Assets/All-2.jpg" alt="Image 2">
+    <img src="./Assets/All-3.jpg" alt="Image 3">
+    <img src="./Assets/All-4.jpg" alt="Image 4">
+    <img src="./Assets/All-5.jpg" alt="Image 5">
+    <img src="./Assets/All-6.jpg" alt="Image 6">
+  </div>
+
+  <div id="gallery2" class="gallery">
+    <img src="./Assets/All-1.jpg" alt="Image 1">
+    <img src="./Assets/All-3.jpg" alt="Image 2">
+    <img src="./Assets/All-4.jpg" alt="Image 3">
+    <img src="./Assets/All-5.jpg" alt="Image 4">
+  </div>
+
+  <div id="gallery3" class="gallery">
+    <img src="./Assets/All-1.jpg" alt="Image 1">
+    <img src="./Assets/All-3.jpg" alt="Image 2">
+    <img src="./Assets/All-4.jpg" alt="Image 3">
+    <img src="./Assets/All-6.jpg" alt="Image 4">
+  </div>
+
+  <div id="gallery4" class="gallery">
+    <img src="./Assets/All-2.jpg" alt="Image 1">
+    <img src="./Assets/All-3.jpg" alt="Image 2">
+    <img src="./Assets/All-4.jpg" alt="Image 3">
+  </div>
+
+  <div id="gallery5" class="gallery">
+    <img src="./Assets/All-2.jpg" alt="Image 1">
+    <img src="./Assets/All-2.jpg" alt="Image 1">
+
+  </div>
+    </div>
+   </section>
+  <!-- Hero Section Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

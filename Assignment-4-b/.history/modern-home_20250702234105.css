@@ -1,0 +1,10 @@
+ @media (max-width: 500px){
+    .nav-logo{
+        width: 230px;
+        height: 60px;
+    }
+
+    .navbar-toggler{
+        -webkit-text-stroke-width: ;
+    }
+ }

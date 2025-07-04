@@ -1,0 +1,402 @@
+header{
+    background-color: #f8b864;
+    color: white;
+}
+
+.top-nav{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+}
+
+@media (max-width: 598px){
+  span{
+    font-size: 10px;
+  }
+.contact i{
+  font-size: 12px;
+}
+
+  .icons i{
+    font-size: 12px;
+  }
+}
+
+.top-nav-bg{
+    background-color: #f8b864;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav img{
+    width: 220px;
+    height: 60px;
+}
+
+nav ul li, button{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+nav .nav-link:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+/* ============= Navbar Start ============= */
+
+@media (min-width: 992px){
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block; 
+        margin-top: 0; 
+      }
+
+      .dropdown-menu{
+        transition: all 0.3s ease; 
+      }
+
+      .dropdown-toggle::after {
+        display: none;
+      }
+      
+    }
+@media (max-width: 992px){
+  .dropdown-menu li .dropdown-divider{
+    display: none;
+  }
+
+  .dropdown-menu li{
+    padding-bottom: 5px;
+  }
+
+  nav .btn:focus{
+    background-color: var(--themeHoverColor);
+    color: var(--whiteColor);
+  }
+
+  .dropdown-menu {
+    box-shadow: none;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 9999;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 520px){
+  .top-nav{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav img{
+    width: 150px;
+    height: 40px;
+}
+}
+
+@media (max-width: 330px){
+  .contact{
+    flex-direction: column;
+  }
+
+  .top-nav{
+    gap: 15px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin: 0 auto; 
+    position: absolute;
+    left: 0;
+    right: 30;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navbar-toggler {
+    z-index: 2; 
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    width: 250px;
+    height: 70px;
+  }
+}
+
+/* ============= Navbar End ============= */
+
+/* ============= Hero Section Start ============= */
+
+.hero-section{
+  height: auto;
+
+}
+
+.hero-text{
+  background-image: url(./Assets/about-hero-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+}
+
+.hero-text h2{
+  font-size: 42px;
+  color: white;
+}
+
+.hero-text p{
+    color: white;
+    max-width: 400px;
+}
+
+.link-hover:hover{
+    text-decoration: underline;
+}
+
+.hero-link{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-link p{
+    color: white;
+    font-size: 12px;
+}
+
+
+@media (max-width: 690px){
+  .hero-section h1{
+    font-size: 30px;
+  }
+
+  .hero-text{
+    padding: 30px;
+    height: auto;
+  }
+}
+
+/* ============= Hero Section End ============= */
+
+/* ========== Causes Section 1 Starts ======= */
+.causes-section-1{
+  background-color: #f2f2f2;
+  height: auto;
+  padding: 40px 10px;
+  margin-top: 40px;
+}
+
+.causes-section-1 .causes-text hr {
+    width: 50px;
+    height: 5px;
+    margin: 8px auto;
+    border: 1px solid #edaa51;
+    background-color: #f8b864;
+}
+
+.causes-cards-section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px 10px;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-wrapper {
+  position: relative;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.donate-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(219, 167, 103, 0.8);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.progress-circle {
+  position: absolute;
+  bottom: -20px;
+  left: 30px;
+  background-color: #f8b864;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 0 0 4px #e4c89a;
+}
+
+.progress-circle-2 {
+  position: absolute;
+  bottom: -20px;
+  left: 120px;
+  background-color: #f8b864;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 0 0 4px #e4c89a;
+}
+
+.progress-circle-3 {
+  position: absolute;
+  bottom: -20px;
+  left: 180px;
+  background-color: #f8b864;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 0 0 4px #e4c89a;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 70px;
+  height: 6px;
+  background-color: #f8b864;
+  z-index: 1;
+}
+
+.underline-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  height: 6px;
+  background-color: #f8b864;
+  z-index: 1;
+}
+
+.underline-3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 220px;
+  height: 6px;
+  background-color: #f8b864;
+  z-index: 1;
+}
+
+.card-body {
+  padding: 30px 20px 20px;
+  text-align: left;
+}
+
+.card-body h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card-body a {
+  color: rgb(69, 67, 67);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.card-body a:hover{
+  color: #f8b864;
+  text-decoration: underline;
+}
+
+/* ========== Causes Section 1 Ends ======= */

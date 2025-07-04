@@ -1,0 +1,28 @@
+header{
+    background-color: #f8b864;
+    color: white;
+}
+
+.top-nav{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+}
+
+@media (max-width: 598px){
+  span{
+    font-size: 10px;
+  }
+.contact i{
+  font-size: 12px;
+}
+
+  .icons i{
+    font-size: 12px;
+  }
+}
+
+.top-nav-bg{
+    background-color: #f8b864;
+}

@@ -1,0 +1,454 @@
+header{
+    background-color: #f8b864;
+    color: white;
+}
+
+.top-nav{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+}
+
+@media (max-width: 598px){
+  span{
+    font-size: 10px;
+  }
+.contact i{
+  font-size: 12px;
+}
+
+  .icons i{
+    font-size: 12px;
+  }
+}
+
+.top-nav-bg{
+    background-color: #f8b864;
+}
+
+.dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav img{
+    width: 220px;
+    height: 60px;
+}
+
+nav ul li, button{
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+nav .nav-link:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover{
+    color: #f8b864;
+    transition: all 0.5s ease;
+}
+
+/* ============= Navbar Start ============= */
+
+@media (min-width: 992px){
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block; 
+        margin-top: 0; 
+      }
+
+      .dropdown-menu{
+        transition: all 0.3s ease; 
+      }
+
+      .dropdown-toggle::after {
+        display: none;
+      }
+      
+    }
+@media (max-width: 992px){
+  .dropdown-menu li .dropdown-divider{
+    display: none;
+  }
+
+  .dropdown-menu li{
+    padding-bottom: 5px;
+  }
+
+  nav .btn:focus{
+    background-color: var(--themeHoverColor);
+    color: var(--whiteColor);
+  }
+
+  .dropdown-menu {
+    box-shadow: none;
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 80px; 
+    left: 0;
+    width: 100%;
+    background-color: #fff; 
+    z-index: 9999;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 99999;
+  }
+}
+
+@media (max-width: 520px){
+  .top-nav{
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav img{
+    width: 150px;
+    height: 40px;
+}
+}
+
+@media (max-width: 330px){
+  .contact{
+    flex-direction: column;
+  }
+
+  .top-nav{
+    gap: 15px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    margin: 0 auto; 
+    position: absolute;
+    left: 0;
+    right: 30;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navbar-toggler {
+    z-index: 2; 
+    margin-left: auto;
+  }
+
+  .navbar-brand img {
+    width: 250px;
+    height: 70px;
+  }
+}
+
+/* ============= Navbar End ============= */
+
+/* ============= Hero Section Start ============= */
+
+.hero-section{
+  height: auto;
+
+}
+
+.hero-text{
+  background-image: url(./Assets/about-hero-bg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+}
+
+.hero-text h2{
+  font-size: 42px;
+  color: white;
+}
+
+.hero-text p{
+    color: white;
+    max-width: 400px;
+}
+
+.link-hover:hover{
+    text-decoration: underline;
+}
+
+.hero-link{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-link p{
+    color: white;
+    font-size: 12px;
+}
+
+
+@media (max-width: 690px){
+  .hero-section h1{
+    font-size: 30px;
+  }
+
+  .hero-text{
+    padding: 30px;
+    height: auto;
+  }
+}
+
+/* ============= Hero Section End ============= */
+
+/* ============= Contact Section Start ============= */
+
+.iframe{
+    filter: opacity(0.5);
+}
+
+.cont-main{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.contact-cont{
+    height: auto;
+    max-width: 1150px;
+    border-radius: 10px;
+    width: 100vw;
+    background-color: #f2f2f2;
+    display: flex;
+    padding: 100px 40px;
+    margin-top: -200px;
+    gap: 20px;
+}
+
+.contact-text{
+    width: 50%;
+}
+
+.contact-form{
+    width: 50%;
+}
+
+.input-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-text{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.input-text input{
+  outline: none;
+  border: 1px solid rgb(190, 185, 185);
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.input-msg textarea{
+  outline: none;
+  border: 1px solid rgb(190, 185, 185);
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+@media (max-width: 700px){
+.contact-cont{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0px;
+        padding: 50px 20px;
+    }
+
+.contact-text{
+    width: 100%;
+}
+
+.contact-form{
+    width: 100%;
+}
+
+.input-text{
+    flex-direction: column;
+    width
+    : 100%;
+}
+}
+
+/* ============= Contact Section End ============= */
+
+/* ========== Footer Section Starts ======= */
+
+ footer{
+  background-color: #222222;
+  color: white;
+ }
+
+ .footer-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 300px;
+ }
+
+.fot-logo-sec{
+  padding: 40px 30px;
+}
+
+ .fot-logo-sec p{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: grey;
+  font-size: 17px;
+ }
+
+ .fot-icons{
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  color: #f8b864;
+ }
+
+ .campaigns{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px;
+ }
+
+.campaigns h3{
+  font-size: 22px;
+ }
+
+.campaigns p a{
+  color: grey;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.campaigns p a:hover{
+  text-decoration: underline;
+  color: #f8b864;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 30px;
+}
+
+.location h3{
+  font-size: 22px;
+}
+
+.location p i{
+  color: #f8b864;
+  margin-right: 10px;
+}
+
+.location p{
+  color: grey;
+}
+
+footer hr{
+  margin-top: 80px;
+ }
+
+.footer-bot{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  height: 80px;
+}
+
+.bot-text{
+  font-size: 15px;
+  color: grey;
+}
+
+.bot-link{
+  display: flex;
+  gap: 20px;
+}
+
+.bot-link a{
+  font-size: 15px;
+  color: grey;
+  text-decoration: none;
+}
+
+.bot-link a:hover{
+  color: #f8b864;
+}
+
+@media (max-width: 1264px){
+  .footer-top{
+    height: 400px;
+  }
+}
+
+@media (max-width: 900px){
+  .footer-top{
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+    align-items: start;
+    padding: 20px;
+  }
+
+  .fot-logo-sec{
+    padding: 30px 20px;
+  }
+
+  .campaigns{
+    padding: 20px;
+  }
+
+  .location{
+    padding: 20px;
+  }
+}
+
+@media (max-width: 800px){
+  .footer-bot{
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+  }
+}
+
+/* ========== Footer Section Ends ======= */
